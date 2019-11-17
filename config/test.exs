@@ -3,9 +3,9 @@ use Mix.Config
 # Configure your database
 config :my_app, MyApp.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "my_app_test",
-  hostname: "localhost",
+  password: "docker",
+  database: "elixir_api",
+  hostname: "docker",
   pool: Ecto.Adapters.SQL.Sandbox
 
 # We don't run a server during test. If one is required,

@@ -3,9 +3,9 @@ use Mix.Config
 # Configure your database
 config :my_app, MyApp.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "my_app_dev",
-  hostname: "localhost",
+  password: "docker",
+  database: "elixir_api",
+  hostname: "docker",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
