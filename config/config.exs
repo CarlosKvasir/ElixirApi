@@ -14,7 +14,6 @@ config :my_app,
 # Add support for microseconds at the DB level
 # this avoids having to configure it on every migration file
 config :my_app, MyApp.Repo, migration_timestamps: [type: :utc_datetime_usec]
-mix(phx.server)
 
 # Configures the endpoint
 config :my_app, MyAppWeb.Endpoint,
